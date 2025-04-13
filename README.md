@@ -1,20 +1,25 @@
-# anomaly-detection-isolation-forest
-Anomaly-based credit card fraud detection using Isolation Forest which achieves 92% recall &amp; 0.90 F1-score on imbalanced Kaggle dataset implementing real-time inference pipeline with PCA/t-SNE preprocessing
+# Anomaly Detection with Isolation Forest
 
-## Overview
-A machine learning project that detects anomalies using the Isolation Forest algorithm.
+## Project Overview
+This project implements an anomaly detection system using the Isolation Forest algorithm. The model is trained on a financial dataset to detect fraudulent transactions.
 
 ## Features
-- Detects anomalies in financial transactions
-- Uses Isolation Forest algorithm
-- Includes data preprocessing and visualization
+- Anomaly detection using Isolation Forest
+- Data preprocessing and normalization
+- Model evaluation with precision/recall metrics
+- Visualizations using t-SNE for high-dimensional data
 - Optimized model with hyperparameter tuning
 
-## Getting Started
-### Prerequisites
+## Requirements
 - Python 3.8+
-- Required libraries: scikit-learn, pandas, matplotlib
+- pandas
+- numpy
+- scikit-learn
+- matplotlib
+- seaborn
+- joblib
 
-### Installation
+## Usage
+1. Clone the repository:
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/NirmanPatel036/anomaly-detection-isolation-forest.git
